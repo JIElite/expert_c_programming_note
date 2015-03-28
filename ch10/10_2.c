@@ -13,8 +13,8 @@ int main(){
 	 * char *apple[4] 是有四個元素，每個元素都是指向char的指標型態
 	 * char (*pea)[4] pea 則是一個指標，只是指向的東西是 char [4] 這種東西
 	 * 
-	 * 所以 type of apple : char *[4]
-	 * 	type of pea   : char (*)[4]
+	 * 所以 type of apple : char *[4] :   (char *)[4] 陣列有四個元素，每個元素的type是 char *
+	 * 	type of pea   : char (*)[4] : 指標指向 char [4]
 	 *
 	 */
 }
